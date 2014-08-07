@@ -3,7 +3,7 @@
 
     var lib = {};
 
-    lib.hoge = function(first, second){
+    lib.returnKakeru = function(first, second){
         return first * second;
     };
 
@@ -42,6 +42,6 @@
     var hoge = require("./module/hoge");
 
     console.log(test.returnPlus(1, 2));
-    console.log(test.hoge(1, 2));
+    console.log(hoge.returnKakeru(1, 2));
 })();
 },{"./module/hoge":1,"./module/test":2}]},{},[3])

@@ -2,7 +2,7 @@
 
     var lib = {};
 
-    lib.hoge = function(first, second){
+    lib.returnKakeru = function(first, second){
         return first * second;
     };
 

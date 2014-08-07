@@ -3,5 +3,5 @@
     var hoge = require("./module/hoge");
 
     console.log(test.returnPlus(1, 2));
-    console.log(test.hoge(1, 2));
+    console.log(hoge.returnKakeru(1, 2));
 })();
